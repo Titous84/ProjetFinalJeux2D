@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5527159879340611886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3788649709893023804}
+  - component: {fileID: 7422463145693281536}
+  m_Layer: 0
+  m_Name: GestionApparitionFruits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3788649709893023804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527159879340611886}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 450.21155, y: 536.10126, z: -3.6411924}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7422463145693281536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527159879340611886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b605aeb3003a20429bd9a721c72c856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitsPrefabs:
+  - {fileID: 6017678442603761576, guid: e31234b2c5eeadd4f889b945b9d381e3, type: 3}
+  - {fileID: 3978989485700379649, guid: ad05c8f8ba9973c49a5f0528280b87cb, type: 3}
+  - {fileID: 6144929225426406064, guid: 2a9eb509c2a816d41be270a2448f1ab4, type: 3}
+  - {fileID: 3308558502898435625, guid: 8a67839522bb6ea41bb9d88b4e757af8, type: 3}
+  - {fileID: 2229177210287750600, guid: 603519b5dbb60d848972b89826eeced4, type: 3}
+  - {fileID: 2640361620563251879, guid: c561495538384ee4fa8f75fdf4016df3, type: 3}
+  - {fileID: 946311688879345832, guid: fc608603119fee841bdcae3d9ad335c5, type: 3}
+  - {fileID: 8517895992642566241, guid: 6ba6f85627993d24d87c397514cffb2d, type: 3}
+  zoneApparitionMin: {x: -4.8, y: -3}
+  zoneApparitionMax: {x: 5.8, y: 2.6}
