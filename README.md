@@ -1,5 +1,5 @@
 Lien GitHub public remise jeux 2D Nathan Reyes : 
 
-	- https://github.com/Titous84/FinalProject2DGames.git
+	- https://github.com/Titous84/ProjetFinalJeux2D
 
-Ce GitHub contient le fichier Zip contenant les dossiers de scripts, images… ainsi que l'exécutable. Le modèle et le document d'analyse sont présents dans le fichier word (.docx)
+Ce GitHub contient le dossier contenant les fichiers nécessaires pour le jeu. Il contient aussi le modèle et document d'analyse dans un fichier word (.docx) et le document .exe.
